@@ -1,0 +1,57 @@
+
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background: #232f3e;
+    margin: 0 auto;
+    padding: 0;
+    .img{
+        width: 120px;
+        height: 100px;
+        object-fit: cover;
+    }
+    form{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        input{
+            height: 70px;
+            width: 100%;
+            outline: none;
+            border-radius: 15px;
+            font-size: 22px;
+            padding-left: 20px;
+            border: none;
+        }
+        button{
+            border: none;
+            margin-left: -70px;
+            background-color: yellow;
+            height: 70px;
+            text-align: center;
+            align-items: center;
+            display: flex;
+            width: 70px;
+            border-radius: 0px 15px 15px 0;
+        }
+    }
+    .ul__list{
+        display: flex;
+        list-style-type: none;
+        align-items: center;
+        justify-content: space-evenly;
+        li{
+            margin: 20px;
+            font-size: 22px;
+            cursor: pointer;
+            a{
+                color: red;
+                text-decoration: none;
+            }
+        }
+    }
+}
